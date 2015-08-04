@@ -11,5 +11,4 @@ The following screenshots demonstrate the emulator in action.
 ![Screen2](http://i.imgur.com/qo5oudc.png)
 ![Screen3](http://i.imgur.com/bG6h4f2.png)
 ![Screen4](http://i.imgur.com/gRnpHGm.png)
-![Screen6](http://i.imgur.com/0sQTgKS.png)
 ![Screen7](http://i.imgur.com/4hd368E.png)
