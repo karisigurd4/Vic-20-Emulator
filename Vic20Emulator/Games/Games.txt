@@ -1,0 +1,18 @@
+Boot to Basic
+Alien Blitz/Alien Blitz.prg#
+Apple Panic/Apple Panic.prg#
+Buck Rogers/Buck Rogers-a000.prg#Buck Rogers/Buck Rogers-6000.prg
+Car Race/Car Race.prg#
+Choplifter/Choplifter.prg#
+Cyclon/Cyclon.prg#
+Dot Gobbler/Dot Gobbler.prg#
+Donkey Kong/Donkey Kong-2000.prg#Donkey Kong/Donkey Kong-a000.prg
+Frogger/Frogger.prg#
+Gold Fever/Gold Fever.prg#
+Gridrunner/Gridrunner.prg#
+Meteor Run/Meteor Run.prg#
+Monster Maze/Monster Maze.prg#
+Lode Runner/Lode Runner-6000.prg#Lode Runner/Lode Runner-a000.prg
+Pac-Man/Pac-Man.prg#
+Road Race/Road Race.prg#
+Sub Chase/Sub Chase.prg#

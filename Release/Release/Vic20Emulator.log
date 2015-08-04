@@ -1,0 +1,55 @@
+﻿Build started 2015-08-04 14:16:43.
+     1>Project "C:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Vic20Emulator\Vic20Emulator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Ob2 /Oi /Ot /Oy /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\Register16.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\Register8.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\MOS6502.h(141): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\MOS6502.h(152): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\MOS6502.h(165): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\MOS6502.h(282): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\MOS6502.h(283): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>main.cpp(70): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(144): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(145): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(443): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(444): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(445): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(446): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(504): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(554): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(558): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(561): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(571): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(574): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(577): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(580): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Release\Vic20Emulator.exe" /NOLOGO SDL2_image.lib SDL2_ttf.lib SDL2.lib SDL2main.lib GlU32.Lib OpenGL32.Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Release\Vic20Emulator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Release\Vic20Emulator.lib" /MACHINE:X86 /SAFESEH Release\IC.obj
+         Release\main.obj
+         Release\MOS6502.obj
+         Release\MOS6502Memory.obj
+         Release\MOS6522.obj
+         Release\MOS6561.obj
+         Release\Register16.obj
+         Release\Register8.obj
+         Release\Vic20Rom.obj
+         Generating code
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\vic20keymap.h(113): warning C4715: 'Vic20KeyMap::getVicKey' : not all control paths return a value
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502memory.cpp(41): warning C4715: 'MOS6502Memory::readWord' : not all control paths return a value
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502memory.cpp(36): warning C4715: 'MOS6502Memory::readDWord' : not all control paths return a value
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6561.cpp(151): warning C4715: 'MOS6561::getCharacterRom' : not all control paths return a value
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\gameslistreader.h(43): warning C4715: 'GamesListReader::getPath' : not all control paths return a value
+         Finished generating code
+         Vic20Emulator.vcxproj -> C:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Release\Vic20Emulator.exe
+     1>Done Building Project "C:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Vic20Emulator\Vic20Emulator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00

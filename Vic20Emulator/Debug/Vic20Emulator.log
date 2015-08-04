@@ -1,0 +1,133 @@
+﻿Build started 2015-07-28 13:50:53.
+     1>Project "c:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Vic20Emulator\Vic20Emulator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IC.cpp main.cpp MOS6502.cpp MOS6502Memory.cpp MOS6522.cpp MOS6561.cpp Register16.cpp Register8.cpp Vic20Rom.cpp
+         Vic20Rom.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\vic20rom.cpp(32): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         Register8.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register8.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Register16.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register16.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         MOS6561.cpp
+         MOS6522.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register16.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register8.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(141): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(152): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(165): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(282): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(283): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+         MOS6502Memory.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502memory.cpp(26): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502memory.cpp(28): warning C4244: '=' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502memory.cpp(72): warning C4244: '=' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502memory.cpp(99): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         MOS6502.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register16.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register8.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(141): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(152): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(165): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(282): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(283): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(293): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(316): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(365): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(453): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(539): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(553): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(567): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(567): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(570): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(572): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(573): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(580): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(594): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(974): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1020): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1069): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1118): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1150): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1153): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1154): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1272): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1366): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1369): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1370): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1551): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1630): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1689): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1762): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1765): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1768): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1863): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1943): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1962): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(1984): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2055): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2061): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2071): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2087): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2103): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2164): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2170): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2181): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2198): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2215): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2223): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2302): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2424): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2431): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2438): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2445): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2452): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2459): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2466): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2491): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2498): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2505): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2530): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2537): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.cpp(2544): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+         main.cpp
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register16.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\register8.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(141): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(152): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(165): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(282): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6502.h(283): warning C4244: 'argument' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(70): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(229): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(230): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(232): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(233): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(238): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(383): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(413): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(414): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(415): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(416): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(430): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(466): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(470): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(473): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(484): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(487): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(490): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\main.cpp(493): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         IC.cpp
+         Generating Code...
+     1>c:\users\kári\documents\visual studio 2013\projects\vic20emulator\vic20emulator\mos6561.cpp(101): warning C4715: 'MOS6561::getCharacterRom' : not all control paths return a value
+     1>Done Building Project "c:\Users\Kári\documents\visual studio 2013\Projects\Vic20Emulator\Vic20Emulator\Vic20Emulator.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.02
