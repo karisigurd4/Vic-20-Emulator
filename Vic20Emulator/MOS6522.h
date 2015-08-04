@@ -40,7 +40,6 @@ private:
 	// Organize operations into separate methods for cleaner code
 	void tickTimers();
 	void tickInput();
-	void createCallBacks();
 
 	// Memory space reference
 	MOS6502Memory *memory;
