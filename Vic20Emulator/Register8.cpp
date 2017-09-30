@@ -10,7 +10,6 @@ Register8::~Register8() {
 }
 
 void Register8::write(uint16_t value) {
-	// Use mod arithmetic to simulate 8-bit overflow
 	this->value = value & 0x00FF;
 }
 
